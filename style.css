@@ -1,0 +1,489 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main hr{
+  border: 0;
+  background-color: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+  margin-top: 120px;
+}
+
+body{
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+   @media only screen and (min-width: 1978px) and (max-width: 200px){
+   .leftSection{
+    font-size: 19px;
+  }
+} 
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover{
+  color: lavender;
+  font-size: 1.04rem;
+}
+
+.left{
+  font-size: 1.5rem;
+}
+
+.firstSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 0;
+}
+
+.firstSection > div{
+  width: 35%;
+}
+
+.leftSection{
+  font-size: 2rem;
+  padding-left: 5%;
+}
+
+.rightSection{
+  align-items: center;
+}
+
+.rightSection img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 6%;
+}
+
+#element{
+  color: rgb(118, 211, 237);;
+}
+/* secondSection */
+.secondSection {
+  margin-right: 90px;
+  margin-left: 90px;
+  padding: 20px;
+  height: 744px;
+}
+
+.secondSection h1{
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.grid-container {
+  display:flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.grid-item1:hover{
+  transform: scale(1.07);
+  transition: all; 
+}
+
+.grid-item1 {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  text-align: center;
+  width: 25%;
+  border-radius: 5px;
+}
+  
+.grid-item1 p{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.grid-item1 span {
+  font-size: 14px;
+  color: gray;
+}
+
+.grid-item1 img {
+  border-radius: 50%;
+  background-color: black;
+  padding: 15px;
+  width: 50%;
+  margin-top: 10px;
+}
+  
+.Download-button {
+  padding: 10px 25px;
+  background-color: rgb(115, 13, 115);
+  border-color: none;
+  border-radius: 10px;
+  color: white;
+  margin: 10px ;
+  font-size: 13px;
+}
+  
+.Download-button:hover{
+  background-color: #8100a1;
+  font-weight: bold;
+}
+
+.Download-button a{
+  text-decoration: none;
+  color: white;
+}
+
+/* thirdsection */ 
+.thirdSection {
+  margin-right: 90px;
+  margin-left: 90px;
+  padding: 20px;
+  height: 860px;
+}
+
+.thirdSection h1{
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.item1:hover{
+  transform: scale(1.09);
+  transition: all;
+}
+
+.item1 {
+  padding: 5px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  text-align: center;
+  width: 25%;
+  border-radius: 5px;
+}
+  
+.item1 p{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.item1 span {
+ font-size: 12px;
+ color: gray;
+}
+
+.item1 img {
+  border-radius: 50%;
+  background-color: white;
+  padding: 15px;
+  width: 50%;
+  margin-top: 10px;
+}
+  
+.Enroll-button {
+  padding: 10px 25px;
+  background-color: rgb(87, 65, 255);
+  border-color: none;
+  border-radius: 10px;
+  color: white;
+  margin: 10px ;
+  font-size: 13px;
+}
+  
+.Enroll-button:hover{
+  background-color: #7e4fff;
+  font-weight: bold;  
+}
+
+.Enroll-button a{
+  text-decoration: none;
+  color: white;
+}
+
+/* fivesection */
+
+.fiveSection {
+  margin-right: 90px;
+  margin-left: 90px;
+  padding: 20px;
+  height: 350px;
+}
+
+.fiveSection h1{
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+}
+
+
+.placements {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon1:hover{
+ backdrop-filter: blur(80px);
+}
+
+.icon1 {
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  text-align: center;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.icon1 p{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.icon1 img {
+  background-color: white;
+  padding: 5px;
+  width: 70%;
+  margin-top: 10px;
+  border-radius: 5;
+}
+
+/* fourthSection */
+
+.fourthSection {
+  margin-right: 90px;
+  margin-left: 90px;
+  padding: 20px;
+  height: 300px;
+}
+
+.fourthSection h1{
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+
+.Semester-exams {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.exams1:hover{
+ backdrop-filter: blur(80px);
+}
+
+.exams1 {
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  text-align: center;
+  width: 25%;
+}
+
+.exams1 p{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.exams1span {
+  font-size: 12px;
+  color: gray;
+}
+.exams1 img {
+  background-color: white;
+  padding: 5px;
+  width: 70%;
+  margin-top: 10px;
+  border-radius: 10%;
+}
+
+.Enroll-button {
+  padding: 10px 25px;
+  background-color: rgb(87, 65, 255);
+  border-color: none;
+  border-radius: 10px;
+  color: white;
+  margin: 10px ;
+  font-size: 13px;
+}
+
+.Enroll-button:hover{
+  background-color: #7e4fff;
+  font-weight: bold;
+  
+}
+
+.Enroll-button a{
+  text-decoration: none;
+  color: white;
+}
+
+/* sixSection */
+
+.sixSection {
+  margin-right: 90px;
+  margin-left: 90px;
+  padding: 20px;
+  height: 400px;
+}
+
+.sixSection h1{
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.sessions {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sessions1:hover{
+ backdrop-filter: blur(80px);
+}
+
+.sessions1 {
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  text-align: center;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.sessions1 p{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.sessions1 img {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 70%;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc ;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  padding: 12px 20px;
+  border: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #04AA6D;
+}
+
+/* Style the container/contact section */
+.contact-us {
+  border-radius: 5px;
+  background-color: rgb(16, 16, 62);
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  width: 50%;
+  margin-top: 4px;
+  padding: 20px;
+  margin-left: 300px;
+}
+
+.column > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-us .links a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 520px;
+  margin-right: auto;
+  width: 20%;
+}
+
+.links p{
+  font-size: large;
+  display: flex;
+  margin-left: 450px;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 40%;
+}
